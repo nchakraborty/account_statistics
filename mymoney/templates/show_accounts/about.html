@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<HTML>
+{% load staticfiles %} <!-- New line -->
+<HEAD>
+<TITLE>About</TITLE>
+</HEAD>
+
+<BODY>
+
+<H1 ALIGN="CENTER">Floating Frame Example</H1>
+
+<IFRAME NAME="float1" SRC="http://www.java2s.com" WIDTH=350 HEIGHT=200 ALIGN=LEFT>
+
+There would be an floating frame here if your browser supported it.
+
+</IFRAME>
+<h1> {{user_context}} </h1>
+<a href="/show_accounts/index/">Index</a><br />
+<img src="{% static "images/lightbulb-icon-LightBulbOn.png" %}" alt="Picture of Rango" /> <!-- New line -->
+<P>This is a simple example of how floating frames are used. Notice that in many ways the floating frame acts very similar to an inline image. Floating frames act like embedded objects in many ways.</P>
+
+</BODY>
+</HTML>
